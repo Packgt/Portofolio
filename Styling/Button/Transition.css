@@ -1,0 +1,98 @@
+a{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+button[name="b"]{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.ch {
+  height: 40px;
+  width: 60px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: height 1s,
+    width 1s;
+}
+
+.ch:hover {
+  height: 50px;
+  width: 100px;
+}
+
+.ow{
+  height: 40px;
+  width: 60px;
+  background-color: green;
+  color: white;
+  border: none;
+  transition: box-shadow 1s;
+  cursor: pointer;
+}
+
+.ow:hover {
+  box-shadow: 4px 3px 6px green;
+}
+
+.ne{
+  padding: 10px;
+  background-color: rgb(0, 113, 12);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: margin-right 1s,
+    margin-left 1s,
+    padding-right 1S,
+    padding-left 1S;
+}
+.ne:hover{
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.wo{
+  padding: 10px;
+  background-color: rgb(0, 113, 12);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: margin-right 1s,
+    margin-left 1s,
+    padding-right 1S,
+    padding-left 1S;
+}
+.wo:hover{
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.ee{
+  padding: 10px;
+  background-color: rgb(0, 113, 12);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: margin-right 1s,
+    margin-left 1s,
+    padding-right 1S,
+    padding-left 1S;
+}
+.ee:hover{
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+}

@@ -1,0 +1,30 @@
+
+.fn, .sn{
+  border-color: rgba(0, 0, 0, 0.3);
+  width: 122px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.e{
+  display: block;
+  margin-top: -7px;
+  border-color: rgba(0, 0, 0, 0.3);
+  height: 30px;
+  width: 263px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.su{
+  margin-top: 10px;
+  background-color: rgb(19, 118, 249);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  width: 280px;
+  height: 40px;
+  font-size: 15px;
+}

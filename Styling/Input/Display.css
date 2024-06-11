@@ -1,0 +1,88 @@
+.google{
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.g, .p, .q, .i, .l {
+  margin-right: -9px;
+}
+.g{
+  color: rgb(70, 70, 216);
+}
+
+.p, .w{
+  color:brown;
+}
+
+.q{
+  color: rgb(255, 197, 5);
+}
+
+.i{
+  color: rgb(70, 70, 216);
+}
+
+.l{
+  color: rgb(13, 147, 51);
+}
+
+.s{
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 4px rgb(16, 16, 19);
+  text-align: left;
+  padding-left: 10px;
+  
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+
+.n, .e{
+  font-size: 15px;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 5px;
+  width: 170px;
+  height: 23px;
+}
+
+.n{
+  margin-bottom: 5px;
+}
+
+.t{
+  Width: 290px;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.y{
+  vertical-align: 25px;
+  margin-right: 2px;
+  margin-left: 5px;
+}
+
+.o{
+  vertical-align: 25px;
+}
+
+.move{
+  color: white;
+  background-color: green;
+  border: none;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 47%;
+  margin-right: 50%;
+}

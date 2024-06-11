@@ -1,0 +1,22 @@
+.G{
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.h{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  object-fit:contain;
+  border: 2px;
+  object-position: center;
+  border-style: solid;
+  border-color: rgb(217, 248, 127)
+}
+
+.b{
+  border-radius: 600px;
+  width: 200px;
+}
