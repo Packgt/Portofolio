@@ -1,0 +1,230 @@
+
+.strip{
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  background-color: white;
+  margin-left: 30px;
+  }
+  
+  .strip:hover{
+    background-color: gray;
+    border-radius: 50px;
+  }
+  
+  .strip1{
+  width: 85px;
+  height: 55px;
+  }
+  
+  .search{
+  height: 35px;
+    min-width: 0px;
+    flex: 1;
+  font-size: 16px;
+  padding-left: 5px;
+  border: none;
+  box-shadow: inset 0px 0px 3px rgb(0, 0, 0, 0.3);
+  }
+  
+  .bg{
+  height: 37px;
+  width: 55px;
+  margin-right: 10px;
+  border: none;
+  box-shadow: inset 0px 0px 3px rgb(0, 0, 0, 0.3);
+  padding-top: 4px;
+  }
+  
+  .bg1, .vr1{
+  width: 20px;
+  height: 20px;
+  }
+  
+  .vr{
+  position: relative;
+  display: flex;
+  height: 37px;
+  width: 37px;
+  border: none;
+  margin-left: 5px;
+  padding-top: 5px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .vr:hover{
+  border-radius: 100px;
+  background-color: rgba(106, 103, 103, 0.3);
+  }
+  
+  
+  .tex{
+  display: flex;
+  position: absolute;
+  background-color: rgb(147, 144, 144);
+  color: white;
+  width: 130px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  bottom: -40px; 
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  }
+  
+  
+  .cam{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .cam:hover{
+  background-color: rgba(106, 103, 103, 0.3);
+  }
+  
+  .out{
+  width: 30px;
+  height: 25px;
+  
+  }
+  
+  .outside{
+  width: 20px;
+  height: 20px;
+  }
+  
+  .te{
+  display: flex;
+  position: absolute;
+  background-color: rgb(147, 144, 144);
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  bottom: -40px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  }
+  
+  
+  .cam .tet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -40px;
+  color: white;
+  background-color: rgb(147, 144, 144);
+  height: 30px;
+  width: 85px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  }
+
+  .cam .text{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  }
+  
+  .outer{
+    height: 30px;
+   }
+    
+  .cam:hover .text,
+  .cam:hover .tet,
+  .bg:hover .te,
+  .vr:hover .tex{
+  opacity: 1;
+  }
+  
+  
+  .three{
+    position: absolute;
+    background-color: rgb(197, 24, 24);
+    color: white;
+    font-size: 11px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+    text-align: center;
+    top: -7px;
+    right: 6px;
+    }
+  
+  .img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  }
+
+
+  .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+    position: fixed;
+    height: 60px;
+    left:0px;
+    top: 9px;
+    right: 0px;
+    z-index: 2;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    } 
+  
+    
+    .left{
+      display: flex;
+      align-items: center;
+      width: 300px;
+      margin-right: 100px;
+    }
+    
+      
+    .mid{
+      display: flex;
+      flex: 1;
+      max-width: 600px;
+    }
+    
+    .right{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+      width: 300px;
+      margin-left: 100px; 
+    }

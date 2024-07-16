@@ -1,0 +1,41 @@
+.side{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 85px;
+  height: 650px;
+  position: fixed;
+  top: 54px;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+@media (max-width: 1200px) and (min-width: 1200.1px){
+ 
+  .side{
+    max-width: 100px;
+  }
+}
+
+.safari{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.safari:hover{
+  background-color: gray;
+}
+
+.cus{
+  width: 30px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+.textah{
+  font-size: 13px;
+}
